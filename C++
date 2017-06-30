@@ -1,0 +1,10 @@
+void main(void)
+{
+  int Songs;
+  float DollarPrice;
+  cout << "Enter the number of songs you wish to purchase today.";
+  cin >> Songs; 
+  DollarPrice = 0.99 * Songs;
+  cout << DollarPrice;
+  return;
+  }
